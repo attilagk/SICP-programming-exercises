@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Info
+permalink: /info/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is a compendium of solved problems centered at the principles computer programming.  All programming exercises were taken from [Structure and Interpretation of Computer Programs][book] (MIT Press), "widely considered a classic text in computer science" ([Wikipedia][wikipedia]).  The book, [as it states][ch1], uses the Scheme dialect of the Lisp language "as the framework for [...] discussion of programming" because "the language possesses unique features that make it an excellent medium for studying important programming constructs and data structures and for relating them to the linguistic features that support them".
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[book]: https://www.mitpress.mit.edu/sicp/full-text/book/book.html
+[wikipedia]: https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs
+[ch1]: https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-9.html#%_chap_1
