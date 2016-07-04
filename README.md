@@ -1,2 +1,2 @@
 # SICP-programming-exercises
-Solved programming exercises using Scheme from 'Structure and Interpretation of Computer Programs' (MIT Press)
+Solved exercises in Scheme (Lisp) from 'Structure and Interpretation of Computer Programs' (MIT Press)
