@@ -183,8 +183,14 @@ circumference
     (else (sum-of-squares a b))))
 
 ;;EXERCISE 1.4
-(define (a-plus-abs-b a b)
-  ((if (> b 0) + -) a b))
+;; Observe that our model of evaluation allows for combinations whose operators are compound expressions. Use this observation to describe the behavior of the following procedure: 
+(define
+  ;; the preocedure's syntax
+  (a-plus-abs-b ;; procedure name
+          a b) ;; formal parameters
+  ;; the procedure's body specifies the semantics
+  ( ;; the operator is a compound expression that evaluates to either '+' or '-' depending on the sign of 'b'
+   (if (> b 0) + -) a b))
 
 ;;EXERCISE 1.5
 (define (p) (p))
